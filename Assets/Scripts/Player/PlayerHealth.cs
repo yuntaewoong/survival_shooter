@@ -47,6 +47,7 @@ public class PlayerHealth : MonoBehaviour
     }
 
 
+    
     public void TakeDamage (int amount)
     {
         damaged = true;
@@ -77,11 +78,6 @@ public class PlayerHealth : MonoBehaviour
 
         playerMovement.enabled = false;
         playerShooting.enabled = false;
-    }
-
-
-    public void RestartLevel ()
-    {
-        SceneManager.LoadScene (0);
+        
     }
 }

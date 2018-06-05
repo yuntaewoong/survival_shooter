@@ -1,4 +1,7 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
+
+
 
 public class GameOverManager : MonoBehaviour
 {
@@ -8,22 +11,27 @@ public class GameOverManager : MonoBehaviour
     Animator anim;
     float restartTimer;
 
-    void Awake()
+    private void Awake()
     {
         anim = GetComponent<Animator>();
     }
 
-
-    void Update()
+    private void Update()
     {
         if (playerHealth.currentHealth <= 0)
         {
             anim.SetTrigger("GameOver");
             restartTimer += Time.deltaTime;
+            
             if (restartTimer >= restartdelay)
             {
-                Application.LoadLevel(Application.loadedLevel);
+                RestartLevel();
             }
         }
+    }
+    
+    void RestartLevel()
+    {
+        SceneManager.LoadScene(0);
     }
 }
