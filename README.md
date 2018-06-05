@@ -26,10 +26,9 @@ player는 체력수치를 가지고 있으며 그것은 화면 왼쪽하단의 s
 player의 capsule collider에서 충돌을 인식하면 적의 공격력 수치에 따라  
 player의 체력이 떨어지고 slider가 왼쪽으로 이동한다.  
 player의 체력이 다 떨어지면 죽는 애니메이션을 실행 후 gameover화면으로 이동한다.  
-
-
-
-
-
-
-unity project
+![screenshot_5](https://user-images.githubusercontent.com/38284288/40973632-f87c1596-68ff-11e8-83fa-b0c869f84e58.png)  
+**screenshot5 gameover화면**  
+player가 사망처리된뒤 애니메이션이 끝나면 전체 화면을 가득채우는 gameover화면이 나온다.  
+gameover화면에서는 글자들도 애니메이션을 가져 score가 살짝  
+커졌다가 작아지는 연출을 볼수 있다. 그리고 일정 시간이 흐른뒤 처음scene을 다시 불러와  
+게임을 다시 시작할 수 있다.  
