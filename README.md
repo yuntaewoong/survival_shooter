@@ -12,6 +12,14 @@ unity홈페이지의 asset store에서 필요한 asset들을 import하여 플레
 적의 capsule collider에 총알이 충돌했음을 인식하면 적의 hp가 줄어들고  
 충분한 크기의 피해를 입으면 적은 죽는 애니메이션을 실행한뒤 바닥으로 가라앉고  
 스크립트에 의해 일정시간 후 사라진다.  
+![screenshot_3](https://user-images.githubusercontent.com/38284288/40973525-8511a918-68ff-11e8-887e-c682f900d445.png)  
+**screenshot3 또 다른 2가지 적들**  
+zombunny zombear hellephant라는 이름을 가진 3가지 적이  
+게임에 등장하며 각각의 적은 생긴 특성에 맞게  
+다른 능력치들을 가지고 있다. 특히 hellephant는  
+큰 덩치에 맞게 느린 spawn 시간과 높은 체력을 가지고 있다.  
+
+
 
 
 
